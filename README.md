@@ -25,19 +25,20 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- The games purpose is that the user guesses a number and gives hints till they are able to guess correctly in the given bounds
+- There contained some bugs such as incorrect hints given to user after guesses, wrong number bounds for levels of difficulties, inconsistently calculating the number of attempts left
+- With the help of AI, I corrected these fixes by creating prompts that identified exactly where the issue was, asked AI to check if the logic I am using is correct as compared to the "incorrect" code and applied fixes as they seemed right.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User select a game diffculty level
+2. User chooses level easy and enters a guess of 20
+3. Game returns "Too High"
+4. User enters a guess of 10 → "Too Low"
+5. Score updates correctly after each guess
+6. Game ends after the correct guess or if user is out of attempts
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 

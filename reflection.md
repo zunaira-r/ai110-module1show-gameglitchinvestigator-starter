@@ -63,6 +63,10 @@ The AI did design the pytest cases but it was quite easy to follow along and und
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
+
+  Writing detailed prompts, and identifying the issue myself rather than asking AI to find the bug
 - What is one thing you would do differently next time you work with AI on a coding task?
+  I would want to create better test cases.
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  It helped me realize how much more efficiently and quickly a project can be completed once you're able to identify the solution and then automate AI to implement the change
